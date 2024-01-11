@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will you go out with me ?</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("UcCg2U37vhYqK7rYF");
+   })();
+</script>
+    
+</head>
+<body>
+    <div class="imagecontainer"><img src="shyimg.png" alt="image"></div>
+    <div class="h1">Will  you   go  out   with   me ?</div>
+    <div class="buttons">
+        <button id="Yes" class="button" onclick="SendMail()">Yes</button>
+        <button id="no" class="button">No</button>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
